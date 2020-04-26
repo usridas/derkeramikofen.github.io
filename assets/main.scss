@@ -20,7 +20,7 @@ h1 {
   font-size: 48px;
   color: $lochness-monster;
   margin-bottom: 0;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -32,14 +32,14 @@ h3 {
   font-family: $subtitle-font;
   color: $lochness-monster;
   font-size: 26px;
-  text-align: center;
+  text-align: left;
 }
 
 p, a {
   font-family: $text-font;
   font-weight: bold;
   color: $lochness-monster;
-  text-align: center;
+  text-align: left;
 }
 
 p {
