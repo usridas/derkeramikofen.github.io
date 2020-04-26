@@ -18,9 +18,10 @@ h1 {
   font-family: $title-font;
   font-weight: lighter;
   font-size: 48px;
-  letter-spacing: 3px;
   color: $lochness-monster;
   margin-bottom: 0;
+  margin-right: 20px;
+  text-align: right;
 }
 
 h2 {
@@ -32,6 +33,8 @@ h3 {
   font-family: $subtitle-font;
   color: $lochness-monster;
   font-size: 26px;
+  margin-right: 20px;
+  text-align: right;
 }
 
 p, a {
