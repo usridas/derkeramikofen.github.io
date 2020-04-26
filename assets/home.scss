@@ -13,9 +13,8 @@
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 0;
-  left: 0;
-  background: rgba($english-tea, .8); /* Black */
+  float: right;
+  background: rgba($english-tea, .8);
   overflow-x: hidden; /* Disable horizontal scroll */
 }
 
@@ -33,35 +32,7 @@
   color: #f1f1f1;
 }
 
-.title {
-  background: rgba($sandy-beach, 1);
-  left: 160px;
-  text-align: center;
-  padding: 0px 10px;  
-}
-
 .welcome > p {
-  top: 100px;
-  left: 170px;
-  text-align: center;
-  padding: 0px 10px;
-}
-
-.what-to-do > p {
-  top: 100px;
-  left: 170px;
-  text-align: center;
-  padding: 0px 10px;
-}
-
-.cost > p {
-  top: 100px;
-  left: 170px;
-  text-align: center;
-  padding: 0px 10px;
-}
-
-.family-friends > p {
   top: 100px;
   left: 170px;
   text-align: center;
