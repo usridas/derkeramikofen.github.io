@@ -1,0 +1,43 @@
+---
+---
+@import 'resources';
+
+.section {
+  outline-style: solid;
+  outline-color: rgba($neckar-river, 1);
+  outline-width: 5px;
+  width: 700px;
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  padding: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1; /* Stay on top */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: $wein-nacht;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.news > p {
+  margin: 20px;
+  text-align: left;
+}
