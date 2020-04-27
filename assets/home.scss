@@ -15,6 +15,7 @@
   height: 100%;
   width: 160px; /* Set the width of the sidebar */
   position: fixed;
+  top: 0px;
   right: 0px;
   z-index: 1; /* Stay on top */
   background: rgba($english-tea, .8);
