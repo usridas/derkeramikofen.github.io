@@ -3,7 +3,9 @@
 @import 'resources';
 
 .section {
-  background: rgba($english-tea, .8);
+  outline-style: solid;
+  outline-color: rgba($english-tea, 1);
+  outline-width: 5px;
   width: 800px;
   position: absolute;
   left: 20px;
@@ -18,7 +20,9 @@
   top: 0px;
   right: 0px;
   z-index: 1; /* Stay on top */
-  background: rgba($english-tea, .8);
+  outline-style: solid;
+  outline-color: rgba($english-tea, 1);
+  outline-width: 5px;
   overflow-x: hidden; /* Disable horizontal scroll */
 }
 
