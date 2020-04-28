@@ -7,7 +7,6 @@
   outline-color: rgba($neckar-river, 1);
   outline-width: 5px;
   width: 700px;
-  position: absolute;
   left: 30px;
   padding: 10px;
 }
@@ -39,11 +38,9 @@
 .welcome > p {
   margin: 20px;
   text-align: left;
-  top: 200px;
 }
 
 .news > p {
   margin: 20px;
   text-align: left;
-  top: 700px;
 }
