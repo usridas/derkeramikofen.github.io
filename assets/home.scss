@@ -7,8 +7,6 @@
   outline-color: rgba($neckar-river, 1);
   outline-width: 5px;
   width: 700px;
-  position: relative;
-  left: 20px;
   margin: 20px;
   padding: 10px;
 }
@@ -38,11 +36,13 @@
 }
 
 .welcome > p {
-  margin: 20px;
+  position: absolute;
+  left: 20px;
   text-align: left;
 }
 
 .news > p {
-  margin: 20px;
+  position: absolute;
+  left: 20px;
   text-align: left;
 }
