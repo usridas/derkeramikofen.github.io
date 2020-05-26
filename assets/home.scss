@@ -39,9 +39,15 @@
 .welcome > p {
   text-align: left;
   margin: 20px;
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  padding: 20px;
 }
 
 .news > p {
   text-align: left;
   margin: 20px;
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  padding: 20px;
 }
